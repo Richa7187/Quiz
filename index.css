@@ -217,6 +217,25 @@ h1 {
   height: auto;
 }
 
+.time-dropdown {
+  display: flex;
+  align-items: center;
+  font-size: 26px;
+  margin-bottom: 30px;
+}
+
+.time-dropdown label {
+  margin-right: 10px;
+}
+
+.time-dropdown select{
+    border: 1px solid #ddd;
+}
+
+#add-time-btn {
+  margin-left: 10px;
+}
+
 /* Add Qurstion Page */
 
 .addquestion {
