@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Add Question</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="index.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  </head>
+  <body class="addQuestionsPage">
+    <h1>Add Questions to the Test</h1>
+    <!--
+    <div class="testQuestionsWrapper">
+        <div class="testBox">
+            <div class="question">
+              <span class="qNo">1. </span>What is the correct way to declare a
+              variable in Golang?
+            </div>
+            <div class="answer">
+              <p>
+                <input type="radio" id="a1" name="Option1" value="a" />
+                <label for="a1">var x int</label>
+              </p>
+              <p>
+                <input type="radio" id="b1" name="Option1" value="b" />
+                <label for="b1">int x</label>
+              </p>
+              <p>
+                <input type="radio" id="c1" name="Option1" value="c" />
+                <label for="c1">x := int</label>
+              </p>
+              <p>
+                <input type="radio" id="d1" name="Option1" value="d" />
+                <label for="d1">x int</label>
+              </p>
+            </div>
+          </div>  
+    </div>-->
+
+    <div class="addQuestionWrapper">
+      <form class="addQuestForm">
+        <div class="questionSet">
+            <p>
+              <label for="question">Enter your question:</label>
+              <textarea id="question" required></textarea><br />
+            </p>
+            <p>
+              <label for="option1">Option 1:</label>
+              <textarea type="text" id="option1" required></textarea><br />
+            </p>
+            <p>
+              <label for="option2">Option 2:</label>
+              <textarea type="text" id="option2" required></textarea><br />
+            </p>
+            <p>
+              <label for="option3">Option 3:</label>
+              <textarea type="text" id="option3" required></textarea><br />
+            </p>
+            <p>
+              <label for="option4">Option 4:</label>
+              <textarea type="text" id="option4" required></textarea><br />
+            </p>
+        </div>
+
+        <button class="addQuestion">Add More Questions</button>
+
+        <button class="submitQuest">Submit</button>
+
+      </form>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

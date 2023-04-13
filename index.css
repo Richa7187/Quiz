@@ -1,0 +1,280 @@
+.skillTestLogo {
+  margin: 10px auto 0;
+  max-width: 200px;
+}
+.skillTestLogo img {
+  width: 200px;
+  height: 200px;
+}
+.headingSkillCheck {
+  margin: 30px;
+}
+
+ul.nav-pills {
+  width: 30%;
+  margin: 0 auto;
+  margin-top: 3%;
+}
+
+.nav-pills li:first-child a {
+  margin-right: 30px;
+}
+
+.form-outline {
+  max-width: 30%;
+  margin: 0 auto;
+}
+
+.signWrapper {
+  max-width: 30%;
+  margin: 0 auto;
+}
+
+.testContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.startTest {
+  font-size: 20px;
+}
+
+.tech {
+  width: 25vw;
+  margin-bottom: 50px;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 20px;
+  margin-right: 30px;
+  font-size: 36px;
+}
+
+.tech h6 {
+  font-size: 20px;
+}
+
+.tech h4 {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.tech p {
+  margin-top: 5px;
+  font-size: 18px;
+}
+
+button {
+  background-color: green;
+  font-size: 20px;
+  color: #fff;
+  padding: 7px;
+  width: 150px;
+  height: 46px;
+  display: inline-block;
+}
+
+h1 {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: max-content;
+}
+
+.time {
+  display: inline-block;
+  font-size: 25px;
+  padding-top: 3px;
+}
+
+.add {
+  margin: -20px 0 20px 75%;
+}
+
+.testPage s {
+  position: relative;
+
+  margin-bottom: 50px;
+}
+
+.testPage .languageName {
+  margin-bottom: 40px;
+}
+
+.testPage .testDuration {
+  position: absolute;
+  right: 10%;
+  top: 0px;
+  font-size: 26px;
+}
+
+.testBox {
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  margin-bottom: 40px;
+}
+
+.testQuestionsWrapper {
+  width: 70%;
+  margin: 0 auto 40px;
+}
+
+.testBox .question {
+  font-size: 28px;
+
+  font-style: bold;
+
+  margin-top: 10px;
+
+  margin-left: 20px;
+
+  margin-bottom: 15px;
+}
+
+.testBox .answer {
+  display: flex;
+
+  flex-direction: column;
+
+  margin-left: 20px;
+}
+
+.testBox .answer p {
+  display: flex;
+}
+
+.testBox .answer p input[type="radio"] {
+  border: 0px;
+
+  width: 3%;
+
+  height: 2em;
+}
+
+.testBox .answer p label {
+  font-size: 26px;
+
+  margin-left: 20px;
+}
+
+.resultPage h1 {
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+.resultPage p {
+  font-size: 30px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.resultMessage {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 40px;
+}
+
+.resultMessage span {
+  color: green;
+}
+
+.resultPage button {
+  width: 20%;
+  margin: 50px auto 0;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+/* Add Test Page */
+.addTestPage h1 {
+  margin: 50px auto;
+}
+.addTestContainer {
+  margin: 0 auto;
+  width: 40%;
+}
+.addTestContainer [type="text"] {
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+  height: 60px;
+  width: 100%;
+  font-size: 30px;
+}
+
+.addTestPage .addTestContainer textarea {
+  height: 100px;
+  margin-bottom: 40px;
+  font-size: 24px;
+}
+
+.addTestContainer .addTest {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  font-size: 26px;
+  width: 30%;
+  height: auto;
+}
+
+/* Add Qurstion Page */
+
+.addquestion {
+  font-size: 20px;
+}
+.addQuestForm {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.questionSet {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.addQuestForm p {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.addQuestForm p label {
+  flex: 1;
+}
+.addQuestForm input,
+.addQuestForm textarea {
+  font-size: 26px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+}
+
+.addQuestForm input[type="text"] {
+  width: 80%;
+  margin-bottom: 10px;
+}
+.addQuestForm input[type="submit"] {
+  width: 80%;
+}
+
+.addQuestForm textarea {
+  width: 80%;
+  margin-bottom: 10px;
+}
+
+.addQuestForm label {
+  font-size: 28px;
+  text-align: center;
+}
+
+.addQuestForm .addQuestion {
+  width: 300px;
+  height: auto;
+  display: block;
+  margin: 40px auto 20px;
+}
+
+.addQuestForm .submitQuest {
+  display: block;
+  height: auto;
+  margin: 50px auto 0;
+}
